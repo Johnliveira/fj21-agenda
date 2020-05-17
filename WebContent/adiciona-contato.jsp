@@ -5,7 +5,7 @@
 		<link href="jquery/jquery-ui.css" rel="stylesheet">
 		<script src="jquery/external/jquery/jquery.js"></script>
 		<script src="jquery/jquery-ui.js"></script>
-	
+
 	</head>
 	<body>
 		<c:import url="cabecalho.jsp"/>
@@ -13,10 +13,10 @@
 		<hr />
 		<form action="adicionaContato">
 			Nome: <input type="text" name="nome" /><br /> 
-			E-mail: <input type="text" name="email" /><br /> 
-			Endereço: <input type="text" name="endereco" /><br /> 
-			Data Nascimento: <caelum:campoData id="dataNascimento" /><br /> 
-			
+			E-mail: <input type="text" name="email" /><br />
+			Endereço: <input type="text" name="endereco" /><br />
+			Data Nascimento: <caelum:campoData id="dataNascimento" /><br />
+
 			<input type="submit" value="Gravar" />
 		</form>
 		<c:import url="rodape.jsp"/>

@@ -33,6 +33,9 @@
 					<td>
 						<a href="mvc?logica=RemoveContatoLogic&id=${contato.id}">Remover</a>
 					</td>
+					<td>
+						<a href="mvc?logica=EditaContatoLogic&id=${contato.id}">Editar</a>
+					</td>
 				</tr>
 			</c:forEach>
 		</table>
